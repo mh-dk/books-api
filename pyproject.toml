@@ -1,7 +1,7 @@
 [project]
 name = "books-api"
 version = "0.1.0"
-description = "Add your description here"
+description = "manage books with RestAPI"
 readme = "README.md"
 authors = [
     { name = "mh-dk", email = "darvazehkashani@gmail.com" }
@@ -9,6 +9,9 @@ authors = [
 requires-python = ">=3.14"
 dependencies = [
     "fastapi[standard]>=0.143.0",
+    "psycopg2>=2.9.13",
+    "python-dotenv>=1.2.4",
+    "sqlalchemy>=2.1.6",
 ]
 
 [project.scripts]
